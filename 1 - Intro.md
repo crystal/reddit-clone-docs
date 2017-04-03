@@ -10,6 +10,7 @@ Here are the tools you'll be using:
 - `knex` - handles database operations
 - `locus` - live debugging via REPL
 - `pg` - works with knex to handle database operations
+- `method-override` - allows us to work around the html restrictions on delete & put
 
 ## Frontend vs Backend
 
@@ -79,7 +80,7 @@ HTML Code:
 
 ### ejs Support in Atom
 
-`ejs` can kinda suck in Atom. The syntax highlighting doesn't work right, so it makes it difficult to know if you're writing the correct syntax. Use Google and this documentation as your guide. You can also install the `language-ejs` package, to help Atom lint your files better. 
+`ejs` can kinda suck in Atom. The syntax highlighting doesn't work right, so it makes it difficult to know if you're writing the correct syntax. Use Google and this documentation as your guide. You can also install the `language-ejs` package, to help Atom lint your files better.
 
 ## Try It Out
 
